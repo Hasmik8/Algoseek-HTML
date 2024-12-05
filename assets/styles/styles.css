@@ -1,0 +1,48 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Proximanova;
+}
+
+nav li {
+  display: block;
+}
+
+@font-face {
+  font-family: "Proximanova";
+  src: url("../fonts/proximanova_regular.ttf") format("truetype"),
+    url("../fonts/proximanova_bold.otf") format("opentype"),
+    url("../fonts/proximanova_black.ttf") format("truetype"),
+    url("../fonts/proximanova_extrabold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  padding: 0 30px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+
+  @media (min-width: 1400px) {
+    max-width: 1320px;
+  }
+}

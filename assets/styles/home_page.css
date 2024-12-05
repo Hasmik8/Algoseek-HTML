@@ -1,0 +1,144 @@
+.logo > img {
+  max-width: 254px;
+  width: 100%;
+  object-fit: contain;
+}
+
+header {
+  padding: 25px 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  column-gap: 35px;
+  justify-content: center;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+}
+
+nav > ul > li > a {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+  color: #1d1d1f;
+  text-decoration: none;
+}
+
+.console > button {
+  background-color: #59a745;
+  border: none;
+  max-width: 201px;
+  column-gap: 10px;
+  font-size: 22px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 12px 32px;
+  color: #fff;
+  border-radius: 50px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.slider-component {
+  margin: 150px auto;
+}
+.slider-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  row-gap: 10px;
+}
+.slider-item > p {
+  color: #575a5c;
+  font-weight: bold;
+}
+.slider-item > h6 {
+  color: #1d1d1f;
+  font-size: 50px;
+}
+
+.slider-item > h6 > span {
+  color: #59a745;
+}
+
+.chat_bot_component {
+  display: flex;
+  justify-content: end;
+  padding: 0 15px;
+  margin: 20px 0;
+}
+.chat_bot_component > img {
+  max-width: 80px;
+  width: 100%;
+}
+.chat_bot_component > img {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.chat_bot_component > img:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  background: url("../images/footer_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 70px 0;
+}
+.footer_description {
+  color: #fff;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer_statistic {
+  margin-top: 50px;
+  display: flex;
+  column-gap: 30px;
+  justify-content: space-between;
+}
+.footer_statistic > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  text-align: center;
+}
+
+.statistic_item > h6 {
+  color: #fff;
+  font-size: 60px;
+}
+.statistic_item > p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.green-paragraph {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.green-paragraph p {
+  color: #59a745;
+  font-size: 20px;
+  font-weight: 500;
+}
+.green-paragraph > span {
+  background: #59a745;
+  display: block;
+  width: 24px;
+  height: 3px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
